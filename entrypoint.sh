@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-source /app-info.sh
+# source /app-info.sh
 
 env_var_names=$(secretone env ls)
 echo "The following environment variables will be populated with secrets from Secretone:"
